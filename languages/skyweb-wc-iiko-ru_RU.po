@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: skyweb-wc-iiko\n"
+"POT-Creation-Date: 2021-06-17 10:26+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Max1m\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Admin/Admin.php:89
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/Admin/Admin.php:92
+msgid "Plugin page"
+msgstr "Страница плагина"
+
+#: includes/Admin/Inactive.php:21
+msgid ""
+"IikoCloud needs WooCommerce to run. Please, install and active WooCommerce "
+"plugin."
+msgstr ""
+"Для работы iikoCloud требуется WooCommerce. Пожалуйста, установите и "
+"активируйте плагин WooCommerce."
+
+#: includes/Admin/MetaFields.php:61 includes/Admin/MetaFields.php:94
+msgid "iiko group ID"
+msgstr "iiko ID группы"
+
+#: includes/Admin/MetaFields.php:67 includes/Admin/MetaFields.php:103
+msgid "Uniqe iiko group ID for the product category."
+msgstr "Уникальный ID группы iiko для категории товаров."
+
+#: includes/Admin/MetaFields.php:137 includes/Admin/MetaFields.php:202
+msgid "iiko ID"
+msgstr "iiko ID"
+
+#: includes/Admin/MetaFields.php:175
+msgid "iiko product ID"
+msgstr "iiko ID продукта"
+
+#: includes/Admin/MetaFields.php:176
+msgid "Uniqe iiko product ID."
+msgstr "Уникальный ID продукта iiko."
+
+#: includes/Admin/Order.php:37
+msgid "Export order to iiko"
+msgstr "Экспорт заказа в iiko"
+
+#: includes/Admin/Order.php:63
+msgid "Check created delivery from iiko"
+msgstr "Проверить созданную доставку в айко"
+
+#: includes/Admin/Page.php:45
+#, php-format
+msgid "IikoCloud Control Panel %sv%s%s"
+msgstr "Панель управления iikoCloud %sv%s%s"
+
+#: includes/Admin/Page.php:55
+#, php-format
+msgid "%sSettings%s"
+msgstr "%sНастройки%s"
+
+#: includes/Admin/Page.php:69
+msgid "General information"
+msgstr "Основная информация"
+
+#: includes/Admin/Page.php:71
+msgid "Organizations, terminals, categories and products from iiko."
+msgstr "Организации, терминалы, категории и продукты из iiko."
+
+#: includes/Admin/Page.php:78
+msgid "1. Get Organizations"
+msgstr "1. Получить организации"
+
+#: includes/Admin/Page.php:84
+msgid "Organization: "
+msgstr "Организации: "
+
+#: includes/Admin/Page.php:95
+msgid "2. Get Terminals"
+msgstr "2. Получить терминалы"
+
+#: includes/Admin/Page.php:102
+msgid "Available Terminals: "
+msgstr "Доступные терминалы: "
+
+#: includes/Admin/Page.php:114
+msgid "3. Get Nomenclature"
+msgstr "3. Получить номенклатуру"
+
+#: includes/Admin/Page.php:118
+msgid "And save chosen organization and terminal to the plugin settings."
+msgstr "И сохранить выбранную организацию и терминал в настройки."
+
+#: includes/Admin/Page.php:122
+msgid "Nomenclature general info:"
+msgstr "Основная информация номенклатуры:"
+
+#: includes/Admin/Page.php:125 includes/Admin/Page.php:172
+#: includes/Admin/Page.php:194
+msgid "Groups: "
+msgstr "Группы: "
+
+#: includes/Admin/Page.php:130
+msgid "Product Categories: "
+msgstr "Категории продуктов: "
+
+#: includes/Admin/Page.php:135
+msgid "Products"
+msgstr "Продукты"
+
+#: includes/Admin/Page.php:137
+msgid "Dishes: "
+msgstr "Блюда: "
+
+#: includes/Admin/Page.php:140
+msgid "Goods: "
+msgstr "Товары: "
+
+#: includes/Admin/Page.php:143
+msgid "Modifiers: "
+msgstr "Модификаторы: "
+
+#: includes/Admin/Page.php:148
+msgid "Sizes: "
+msgstr "Размеры: "
+
+#: includes/Admin/Page.php:153
+msgid "Revision: "
+msgstr "Ревизия: "
+
+#: includes/Admin/Page.php:159 includes/Admin/Settings.php:32
+#: includes/Admin/Settings.php:110
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/Admin/Page.php:161
+msgid "Categories and products to WooCommerce."
+msgstr "Категории и продукты в WooCommerce."
+
+#: includes/Admin/Page.php:166
+msgid "Get the information from iiko first."
+msgstr "Сначала получите информацию из iiko."
+
+#: includes/Admin/Page.php:175
+msgid "Use CTRL + click to select several groups in the list."
+msgstr ""
+"Используйте CTRL + щелчок мышью, чтобы выбрать несколько групп в списке."
+
+#: includes/Admin/Page.php:177
+msgid "Strikethrough groups are deleted groups."
+msgstr "Зачеркнутые группы - это удаленные группы."
+
+#: includes/Admin/Page.php:179
+msgid "Groups highlighted in green are modifiers."
+msgstr "Группы, выделенные зеленым цветом, являются модификаторами."
+
+#: includes/Admin/Page.php:186
+msgid "4. Import selected groups and products"
+msgstr "4. Импортировать выбранные группы и продукты"
+
+#: includes/Admin/Page.php:191
+msgid "Imported nomenclature info:"
+msgstr "Информация об импортированной номенклатуре:"
+
+#: includes/Admin/Page.php:199
+msgid "Products: "
+msgstr "Продукты: "
+
+#: includes/Admin/Page.php:205
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: includes/Admin/Page.php:207
+msgid ""
+"Cities, streets and payment methods from iiko to prepare the export of "
+"orders from WooCommerce to iiko."
+msgstr ""
+"Города, улицы и способы оплаты из iiko для подготовки экспорта заказов из "
+"WooCommerce в iiko."
+
+#: includes/Admin/Page.php:214
+msgid "Get Cities"
+msgstr "Получить города"
+
+#: includes/Admin/Page.php:221
+msgid "Cities: "
+msgstr "Города: "
+
+#: includes/Admin/Page.php:229
+msgid "Get Streets"
+msgstr "Получить улицы"
+
+#: includes/Admin/Page.php:232
+msgid "And save chosen city and streets to the plugin settings."
+msgstr "И сохранить выбранный город и улицы в настройки."
+
+#: includes/Admin/Page.php:240
+msgid "Get Payment Types"
+msgstr "Получить типы оплат"
+
+#: includes/Admin/Page.php:250
+msgid "Terminal:"
+msgstr "Терминал:"
+
+#: includes/Admin/Page.php:254
+msgid "Clear"
+msgstr "Очистить"
+
+#: includes/Admin/Settings.php:18
+msgid "iikoCloud"
+msgstr "iikoCloud"
+
+#: includes/Admin/Settings.php:31
+msgid "General"
+msgstr "Главное"
+
+#: includes/Admin/Settings.php:33 includes/Admin/Settings.php:203
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/Admin/Settings.php:112 includes/Admin/Settings.php:206
+#, php-format
+msgid "Some of these settings are updated automatically on %splugin page%s."
+msgstr ""
+"Некоторые из этих настроек обновляются автоматически на %sстранице плагина%s."
+
+#: includes/Admin/Settings.php:121
+msgid "Organization"
+msgstr "Организация"
+
+#: includes/Admin/Settings.php:123
+#, php-format
+msgid "Organization ID - %s%s%s"
+msgstr "ID организации - %s%s%s"
+
+#: includes/Admin/Settings.php:132 includes/Admin/Settings.php:150
+#: includes/Admin/Settings.php:161
+msgid "Updated automatically when you press 'Get Nomenclature' button."
+msgstr "Обновляется автоматически при нажатии кнопки 'Получить номенклатуру'."
+
+#: includes/Admin/Settings.php:139
+msgid "Terminal"
+msgstr "Терминал"
+
+#: includes/Admin/Settings.php:141
+#, php-format
+msgid "Terminal ID - %s%s%s"
+msgstr "ID терминала - %s%s%s"
+
+#: includes/Admin/Settings.php:157
+msgid "Nomenclature revision"
+msgstr "Ревизия номенклатуры"
+
+#: includes/Admin/Settings.php:168
+msgid "Chosen group(s)"
+msgstr "Выбранные группы"
+
+#: includes/Admin/Settings.php:169
+msgid ""
+"Groups that you imported last time and which will be exported using CRON."
+msgstr ""
+"Группы, которые вы импортировали последний раз и которые будут "
+"экспортированы используя CRON."
+
+#: includes/Admin/Settings.php:183
+msgid "Download images"
+msgstr "Загружать изображения"
+
+#: includes/Admin/Settings.php:184
+msgid "Download groups/categories and dishes/products images from iiko"
+msgstr "Загружать изображения групп/категорий товаров и блюд/товары из iiko"
+
+#: includes/Admin/Settings.php:214
+msgid "City"
+msgstr "Город"
+
+#: includes/Admin/Settings.php:216
+#, php-format
+msgid "City ID - %s%s%s"
+msgstr "ID города - %s%s%s"
+
+#: includes/Admin/Settings.php:224 includes/Admin/Settings.php:237
+msgid "Updated automatically when you press 'Get Streets' button."
+msgstr "Обновляется автоматически при нажатии кнопки 'Получить улицы'."
+
+#: includes/Admin/Settings.php:231
+msgid "Streets amount"
+msgstr "Количество улиц"
+
+#: includes/Admin/Settings.php:232
+msgid "Streets amount retrieved from iiko."
+msgstr "Количество улиц, полученное из iiko."
+
+#: includes/Admin/Settings.php:244
+msgid "Default street"
+msgstr "Улица по-умолчанию"
+
+#: includes/Admin/Settings.php:245
+msgid "The exact name of the default street in iiko."
+msgstr "Точное название улицы по-умолчанию в iiko."
+
+#: includes/Admin/Settings.php:264
+msgid "IikoCloud API Settings"
+msgstr "Настройки API iikoCloud"
+
+#: includes/Admin/Settings.php:270
+msgid "API Login"
+msgstr "Логин API"
+
+#: includes/Admin/Settings.php:273
+#, php-format
+msgid ""
+"Unique identifier of the store, issued by the iiko. %sSee documentation%s or "
+"contact your personal manager for more details."
+msgstr ""
+"Уникальный идентификатор магазина, выданный iiko. %sПодробнее в документации"
+"%s или у вашего персонального менеджера iiko."
+
+#: includes/Admin/Settings.php:282
+msgid "If the apiLogin field is empty, then the plugin will not work."
+msgstr "Если поле apiLogin пусто, то плагин работать не будет."
+
+#: includes/Admin/Settings.php:286
+msgid "Timeout in seconds"
+msgstr "Таймаут в секундах"
+
+#: includes/Admin/Settings.php:287
+msgid "Time limit for API requests."
+msgstr "Лимит времени для запросов API."
+
+#: includes/Admin/Settings.php:300
+msgid "Debug mode"
+msgstr "Режим отладки"
+
+#: includes/Admin/Settings.php:301
+msgid "Turn on debug mode"
+msgstr "Включить режим отладки"
+
+#: includes/Admin/Settings.php:303
+#, php-format
+msgid "See logs in %sWooCommerce > System Status > Logs%s."
+msgstr "Смотрите логи в %sWooCommerce > Статус > Журналы%s."
+
+#: includes/Import.php:168
+msgid "Size"
+msgstr "Размер"
+
+#: includes/Import.php:179
+msgid "Modifier"
+msgstr "Модификатор"
+
+#: includes/Modules/Checkout/Checkout_Field_Address.php:75
+msgid "Please select a street from the options provided."
+msgstr "Пожалуйста, выберите улицу из предоставленных вариантов."
+
+#: includes/Modules/Checkout/Checkout_Field_Address.php:76
+msgid ""
+"If you are sure that there is no such street in the list, then write your "
+"own version."
+msgstr "Если нужной улицы в списке нет, напишите свой вариант."
+
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:33
+msgid "Time"
+msgstr "Время"
+
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:43
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:74
+msgid "As soon as possible"
+msgstr "Как можно скорее"
+
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:44
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:78
+msgid "By the time"
+msgstr "Ко времени"
+
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:52
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:100
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:120
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:126
+msgid "Date"
+msgstr "Дата"
+
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:94
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:118
+#: includes/Modules/Checkout/Checkout_Field_Complete_Before.php:125
+msgid "Delivery Method"
+msgstr "Метод доставки"
+
+#: includes/Modules/Checkout/Checkout_Field_Phone.php:31
+msgid "Phone number must be at least <strong>11 digits</strong>."
+msgstr "Номер телефона должен содержать минимум <strong>11 цифр</strong>."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:26
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:47
+msgid "Checkout Fields"
+msgstr "Поля оформления заказа"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:50
+msgid "Additional fields and features for WooCommerce checkout page."
+msgstr ""
+"Дополнительные поля и функции для страницы оформления заказа WooCommerce."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:59
+msgid "\"Phone\" field"
+msgstr "Поле \"Телефон\""
+
+#: includes/Modules/Checkout/Checkout_Settings.php:65
+msgid "Use billing phone mask on checkout page"
+msgstr "Использовать маску телефона на странице оформления заказа"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:72
+msgid "Format"
+msgstr "Формат"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:74
+#, php-format
+msgid ""
+"Use zeros for arbitrary values and numbers for predefined values. %sRead more"
+"%s."
+msgstr ""
+"Используйте нули для произвольных значений и числа для предопределенных "
+"значений. %sПодробнее%s."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:91
+msgid "\"Address\" field"
+msgstr "Поле \"Адрес\""
+
+#: includes/Modules/Checkout/Checkout_Settings.php:97
+msgid "Make not required and hide address fields for local pickup"
+msgstr "Сделать необязательным и скрыть поля адреса для Самовывоза"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:104
+msgid "Fields IDs"
+msgstr "ID полей"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:105
+msgid ""
+"Use ID fields separated by commas. For example '#billing_country_field, "
+"#billing_city_field, #billing_postcode_field'."
+msgstr ""
+"Используйте ID разделенные запятыми. Например, '#billing_country_field, "
+"#billing_city_field, #billing_postcode_field'."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:117
+msgid "\"Complete before\" field"
+msgstr "Поле \"Завершить до\""
+
+#: includes/Modules/Checkout/Checkout_Settings.php:123
+msgid "Show complete before field on checkout page"
+msgstr "Отображать поле 'Завершить до' на странице оформления заказа"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:131
+msgid "Position"
+msgstr "Позиция"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:132
+msgid ""
+"Action tag for output the field. Default value is "
+"'woocommerce_checkout_after_customer_details'."
+msgstr ""
+"Тег экшена для вывода поля. Значение по умолчанию "
+"'woocommerce_checkout_after_customer_details'."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:140
+msgid "Start time"
+msgstr "Начало рабочего дня"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:141
+msgid "Default value is '11'."
+msgstr "Значение по-умолчанию '11'."
+
+#: includes/Modules/Checkout/Checkout_Settings.php:149
+msgid "End time"
+msgstr "Конец рабочего дня"
+
+#: includes/Modules/Checkout/Checkout_Settings.php:150
+msgid "Default value is '23'."
+msgstr "Значение по-умолчанию '23'."
+
+#: includes/Modules/Cron/Cron.php:67 includes/Modules/Cron/Cron_Settings.php:67
+msgid "Every 15 minutes"
+msgstr "Каждые 15 минут"
+
+#: includes/Modules/Cron/Cron.php:72 includes/Modules/Cron/Cron_Settings.php:68
+msgid "Every 30 minutes"
+msgstr "Каждые 30 минут"
+
+#: includes/Modules/Cron/Cron.php:77 includes/Modules/Cron/Cron_Settings.php:70
+msgid "Every 2 hours"
+msgstr "Каждые 2 часа"
+
+#: includes/Modules/Cron/Cron.php:82 includes/Modules/Cron/Cron_Settings.php:71
+msgid "Every 4 hours"
+msgstr "Каждые 4 часа"
+
+#: includes/Modules/Cron/Cron.php:87 includes/Modules/Cron/Cron_Settings.php:72
+msgid "Every 6 hours"
+msgstr "Каждые 6 часов"
+
+#: includes/Modules/Cron/Cron.php:92 includes/Modules/Cron/Cron_Settings.php:73
+msgid "Every 8 hours"
+msgstr "Каждые 8 часов"
+
+#: includes/Modules/Cron/Cron.php:97 includes/Modules/Cron/Cron_Settings.php:74
+msgid "Every 10 hours"
+msgstr "Каждые 10 часов"
+
+#: includes/Modules/Cron/Cron.php:133
+msgid "Last CRON job error."
+msgstr "Ошибка последнего задания CRON."
+
+#: includes/Modules/Cron/Cron.php:138
+msgid "There are not groups for import."
+msgstr "Нет групп для импорта."
+
+#: includes/Modules/Cron/Cron.php:174
+msgid "Please turn on debug mode and check logs."
+msgstr "Включите режим отладки и проверьте логи."
+
+#: includes/Modules/Cron/Cron_Settings.php:26
+#: includes/Modules/Cron/Cron_Settings.php:46
+msgid "Auto import"
+msgstr "Авто импорт"
+
+#: includes/Modules/Cron/Cron_Settings.php:52
+msgid "Nomenclature"
+msgstr "Номенклатура"
+
+#: includes/Modules/Cron/Cron_Settings.php:53
+msgid "Import nomenclature automatically"
+msgstr "Импортировать номенклатуру автоматически"
+
+#: includes/Modules/Cron/Cron_Settings.php:60
+msgid "Recurrence"
+msgstr "Повторение"
+
+#: includes/Modules/Cron/Cron_Settings.php:61
+msgid "Default value is 'Once Hourly'."
+msgstr "Значение по-умолчанию 'Каждый час'."
+
+#: includes/Modules/Cron/Cron_Settings.php:62
+msgid "How often the import should subsequently recur."
+msgstr "Как часто должен повторяться импорт."
+
+#: includes/Modules/Cron/Cron_Settings.php:69
+msgid "Once Hourly"
+msgstr "Каждый час"
+
+#: includes/Modules/Cron/Cron_Settings.php:75
+msgid "Twice Daily"
+msgstr "Дважды в день"
+
+#: includes/Modules/Cron/Cron_Settings.php:76
+msgid "Once Daily"
+msgstr "Раз в день"
+
+#: includes/Modules/Cron/Cron_Settings.php:77
+msgid "Once Weekly"
+msgstr "Раз в неделю"
+
+#: includes/Modules/Cron/Cron_Settings.php:83
+msgid "Check revision"
+msgstr "Проверять ревизию"
+
+#: includes/Modules/Cron/Cron_Settings.php:84
+msgid "Use local and remote revisions to compare nomenclature"
+msgstr "Использовать локальную и удаленную ревизии для сравнения номенклатуры"
+
+#: includes/Modules/Cron/Cron_Settings.php:85
+msgid ""
+"Auto import will work only if remote nomenclature revision is greater than "
+"local."
+msgstr ""
+"Автоматический импорт будет работать только в том случае, если удаленная "
+"версия номенклатуры выше локальной."
+
+#: includes/Modules/Notices/Notices.php:27
+#, php-format
+msgid "Iiko delivery creation error. Order %s"
+msgstr "Ошибка создания доставки в iiko. Заказ %s"
+
+#: includes/Modules/Notices/Notices.php:28
+msgid "Turn on debug mode in plugin settings and see WooCommerce logs."
+msgstr ""
+"Включите режим отладки в настройках плагина и посмотрите логи WooCommerce."
+
+#: includes/Modules/Notices/Notices.php:32
+#, php-format
+msgid "Iiko transfer error. Order %s"
+msgstr "Ошибка передачи в iiko. Заказ %s"
+
+#: includes/Modules/Notices/Notices.php:36
+msgid "Iiko transfer error."
+msgstr "Ошибка передачи в iiko."
+
+#: includes/Modules/Notices/Notices.php:43
+#, php-format
+msgid "Iiko delivery creation response is empty. Order %s"
+msgstr "Пустой ответ iiko на создание доставки. Заказ %s"
+
+#: includes/Modules/Notices/Notices.php:47
+msgid "Iiko delivery creation response is empty."
+msgstr "Пустой ответ iiko на создание доставки."
+
+#: includes/Modules/Notices/Notices.php:69
+msgid "Transferred to iiko."
+msgstr "Передано в iiko."
+
+#: includes/Modules/Notices/Notices.php:92
+msgid "Iiko delivery creation error. Code 200."
+msgstr "Ошибка создания доставки в iiko. Код 200."
+
+#: includes/Modules/Notices/Notices.php:109
+msgid "Iiko delivery creation error. Codes 400, 401, 408 or 500."
+msgstr "Ошибка создания доставки в iiko. Коды 400, 401, 408 или 500."
+
+#: includes/Modules/Payments/Payments_Settings.php:26
+msgid "Payments"
+msgstr "Методы оплаты"
+
+#: includes/Modules/Payments/Payments_Settings.php:47
+msgid "Payment Methods"
+msgstr "Методы оплаты"
+
+#: includes/Modules/Payments/Payments_Settings.php:51
+#, php-format
+msgid ""
+"Updated automatically when you press 'Get Payment Methods' button on "
+"%splugin page%s."
+msgstr ""
+"Обновляется автоматически при нажатии кнопки 'Получить методы оплаты' на "
+"%sстранице плагина%s."
+
+#: includes/Modules/Payments/Payments_Settings.php:66
+#, php-format
+msgid "WooCommerce payment method code for %1$s%2$s%3$s iiko payment type."
+msgstr "Код метода оплаты WooCommerce для типа оплаты iiko - %1$s%2$s%3$s."
+
+#: includes/Modules/Payments/Payments_Settings.php:74
+msgid "Please enter the appropriate WooCommerce payment method code."
+msgstr "Пожалуйста, введите соответствующий код способа оплаты WooCommerce."
+
+#: includes/Modules/Payments/Payments_Settings.php:79
+msgid "Processed externally (by external payment system)"
+msgstr "Обрабатывается извне (внешней платежной системой)"
+
+#: skyweb-wc-iiko.php:32
+msgid ""
+"iikoCloud for WooCommerce requires PHP 7.2 and high. Please, update you PHP "
+"version."
+msgstr ""
+"iikoCloud для WooCommerce требует PHP 7.2 и выше. Пожалуйста, обновите вашу "
+"версию PHP."
+
+#: vendor/deliciousbrains/wp-background-processing/classes/wp-background-process.php:425
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Каждые %d Минуты"
+
+#~ msgid "Organization name."
+#~ msgstr "Название организации."
+
+#~ msgid "Terminal name."
+#~ msgstr "Название терминала."
+
+#~ msgid "City name."
+#~ msgstr "Название города."
+
+#~ msgid "City ID."
+#~ msgstr "ID города."

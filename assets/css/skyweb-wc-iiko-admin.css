@@ -1,0 +1,139 @@
+/*
+ * Common.
+ */
+.iiko_form {
+    margin: 20px 0;
+}
+
+.iiko_form fieldset {
+    margin: 10px 0;
+}
+
+.iiko_form_submit {
+    margin: 20px 0;
+}
+
+.iiko_links {
+    text-align: right;
+}
+
+.iiko_links a {
+    margin-right: 10px;
+}
+
+.iiko_links a:last-child {
+    margin-right: 0;
+}
+
+.iiko_page h2 {
+    margin-top: 2em;
+}
+
+/*
+ * Preloader.
+ */
+.iiko_preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(84, 130, 160, 0.5);
+    z-index: 999;
+}
+
+.iiko_preloader img {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -80px;
+}
+
+/*
+ * Nomenclature.
+ */
+.iiko_nomenclature_name {
+    width: 140px;
+    display: inline-block;
+}
+
+.iiko_nomenclature_value {
+    font-weight: 700;
+}
+
+.iiko_temp_message {
+    padding: 4px 6px;
+    background-color: lightgrey;
+}
+
+.iiko_groups .deleted {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.iiko_groups .modifier {
+    color: green;
+}
+
+/*
+ * Terminal.
+ */
+.iiko_terminal_title {
+    margin-bottom: 0;
+}
+
+.iiko_terminal_clear {
+    text-align: right;
+    margin: 0 10px 5px 0;
+}
+
+.iiko_terminal_clear .button {
+    font-size: 13px;
+    line-height: 13px;
+    height: 30px;
+    min-height: 30px;
+}
+
+.iiko_terminal {
+    height: 320px;
+    overflow-y: scroll;
+    margin-top: 0;
+    font-size: 12px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.iiko_terminal p {
+    margin: 0;
+}
+
+.iiko_terminal .terminal_title {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.iiko_terminal .terminal_notice {
+    color: #007cba;
+}
+
+.iiko_terminal .terminal_error {
+    color: red;
+}
+
+/*
+ * Orders list.
+ */
+.wc-action-button-skyweb-wc-iiko-export-order::after {
+    font-family: woocommerce !important;
+    content: "\e029" !important;
+}
+.wc-action-button-skyweb-wc-iiko-check-created-delivery::after {
+    font-family: woocommerce !important;
+    content: "\e018" !important;
+}

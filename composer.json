@@ -1,0 +1,11 @@
+{
+  "name": "skyweb/wc-iiko",
+  "require": {
+    "deliciousbrains/wp-background-processing": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SkyWeb\\WC_Iiko\\": "includes/"
+    }
+  }
+}
